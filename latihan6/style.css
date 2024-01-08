@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+}
+
+.navbar h2 {
+    color: rgb(0, 255, 162);
+}
+
+.navbar h2 span {
+    color: crimson;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: pink;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar ul li {
+        display: none;
+    }
+}
